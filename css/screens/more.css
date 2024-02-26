@@ -1,0 +1,11 @@
+.more-menu {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+}
+
+.more-menu__icon-font-size span {
+    font-size: 16px;
+}

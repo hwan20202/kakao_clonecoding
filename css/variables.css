@@ -1,3 +1,9 @@
 :root {
     --yellow: #fae100;
+    --hrizontal-space: 25px;
+    --gray-regular: rgba(0,0,0,0.5);
+    --gray-very-light: rgba(0,0,0,0.1);
+    --gray-light: rgba(0,0,0,0.3);
+    --horizontal-gray-border: 1px solid rgba(0,0,0,0.1);
+    --status-bar-height: 20px
 }
