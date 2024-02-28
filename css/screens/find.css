@@ -115,6 +115,26 @@
     margin: 0px 2px;
 }
 
-.open-chat__component-profile-heart-count span {
+.open-chat__component-profile-heart-count span  {
     margin: 0px 2px;
+}
+
+@keyframes heartbeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(2);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+    
+}
+
+.open-chat__component-profile-heart-count:hover i{
+    animation: heartbeat 1s linear infinite;
 }

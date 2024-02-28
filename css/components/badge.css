@@ -8,4 +8,21 @@
     height: 25px;
     font-weight: 600;
     border-radius: 50%;
+    transform: translateY(10px) 1s;
+}
+
+.badge__highlight {
+    animation: highlightBadge 0.5s ease-in-out infinite;
+}
+
+@keyframes highlightBadge {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: none;
+    }
 }
