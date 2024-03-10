@@ -30,7 +30,7 @@
         <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+            <span><a href="settings.html"><span class="screen-header__notification"></span><i class="fa-solid fa-gear fa-lg"></i></a></span>
         </div>
     </header>
 
@@ -61,6 +61,18 @@
                 <div class="icons-row__icon more-menu__icon-font-size"><i></i><span></span></div>
             </div>
         </div>
+
+        <div class="suggestion">
+            <div class="suggestion__header">
+                <h4>Suggestions</h4>
+            </div>
+            <div class="icons-row">
+                <div class="icons-row__icon more-menu__icon-font-size"><i class="fa-solid fa-quote-right"></i><span>Kakao Story</span></div>
+                <div class="icons-row__icon more-menu__icon-font-size"><i class="fa-solid fa-quote-right"></i><span>kakao friends</span></div>
+                <div class="icons-row__icon more-menu__icon-font-size hidden"><i></i><span></span></div>
+                <div class="icons-row__icon more-menu__icon-font-size hidden"><i></i><span></span></div>
+            </div>
+        </div>
         
     </main>
     <nav class="nav">
@@ -75,7 +87,9 @@
                         class="fa-solid fa-ellipsis fa-2x"></i></a></li>
         </ul>
     </nav>
-
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
     <script src="https://kit.fontawesome.com/9e954c8221.js" crossorigin="anonymous"></script>
 </body>
 

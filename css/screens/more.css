@@ -1,11 +1,37 @@
 .more-menu {
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 250px;
+    height: 300px;
 }
 
 .more-menu__icon-font-size span {
     font-size: 16px;
+}
+
+.suggestion {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.suggestion__header {
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px 0px;
+}
+
+.suggestion i {
+    color: white;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    font-size: 35px;
+}
+
+.hidden {
+    visibility: hidden;
 }
