@@ -46,10 +46,24 @@
     margin-top: 8px;
     font-size: 16px;
     color: rgba(0,0,0,0.5);
+    position: relative;
 }
 
 .user-component__time {
     display: block;
     margin-bottom: 8px;
     color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__subtitle .badge {
+    background-color: white;
+    border: 2px solid tomato;
+    color: tomato;
+    position: absolute;
+    top: -2px;
+    right: -23px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 15px;
+    height: 15px;
 }

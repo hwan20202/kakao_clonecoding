@@ -6,6 +6,7 @@
 }
 
 .recommended-friends__title {
+    margin-top: 20px;
     color: var(--gray-light);
     font-size: 17px;
 }

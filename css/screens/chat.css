@@ -46,6 +46,7 @@
 .message-info {
     display: flex;
     align-items: end;
+    margin-top: 5px;
 }
 
 .message-time,
